@@ -11,7 +11,7 @@ chmod 755 install_huog.sh && bash install_create_hugo.sh
 wget https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/f/fortune-mod-1.99.1-17.el7.x86_64.rpm
 rpm  -ivh   fortune-mod-1.99.1-17.el7.x86_64.rpm           
  
- #copy  fortune_file to hugo
+# copy  fortune_file to hugo
 cp -a /usr/share/games/fortune  /data/fortune/themes/
 # alter config.toml  
 #echo 'theme = "fortune"' >>/data/fortune/config.toml
