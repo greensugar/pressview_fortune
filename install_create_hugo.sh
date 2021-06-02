@@ -15,8 +15,9 @@ repo_gpgcheck=0
 enabled=1
 EOF
 
-# install hugo
-yum install -y hugo
+
+# install  golang  hugo
+yum install -y  golang  hugo
 if [ -d /data ] ; then echo "data exist" ; else  mkdir /data; fi
 
 # create hugo default page, in this request ,we dont need to download screen.
